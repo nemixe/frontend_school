@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('app');
+// });
+
+// Route to handle page reload in Vue except for api routes
+Route::get('/{any?}', function (){
+  return view('app');
+})->where('any', '^(?!api\/)[\/\w\.-]*');
