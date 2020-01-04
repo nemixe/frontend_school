@@ -7,6 +7,8 @@ import Profile from './views/Profile'
 import Materials from './views/Materials'
 import Exams from './views/Exams'
 
+import ppdbRouter from './routerPpdb'
+
 // Routes
 const routes = [
   {
@@ -38,7 +40,8 @@ const routes = [
     path: '/exams',
     name: 'exams',
     component: Exams
-  }
+  },
+  ppdbRouter
 ]
 
 const router = new VueRouter({

@@ -1,0 +1,23 @@
+html {
+	overflow-y: scroll;
+}
+html, body {
+	background: #FDBC08!important;
+}
+
+.btn-primary {
+	background: linear-gradient(#A762FF, #773CC1) !important;
+	border: 0px !important;
+	padding: 7px 50px !important;
+	font-weight: 600 !important;
+	text-transform: uppercase;
+	font-size: 1.3rem !important;
+}
+
+.form-control {
+	height: 45px !important;
+}
+
+.pointer-cursor {
+	cursor: pointer;
+}
